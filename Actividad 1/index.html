@@ -15,13 +15,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Youtube Login</title>
+    <title>Youtube</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Ejercicio 27: Semantica -->
     <header> 
-        <h1>Encabezado de la página</h1> 
+        <h1>Youtube</h1> 
         <nav> 
             <ul>
                 <li>Nav 1</li>
@@ -34,75 +34,76 @@
     <main>
         <!-- Formulario -->
         <section  id="formulario"> 
-            <form action="#">
-                Usuario:
-                <!-- Ejercicio 29: Placeholder-->
-                <input type="text" id="usuario" placeholder="Ejm. Andrea" >
-                Validar Usuario: 
-                <input type="text" id="numero1" required pattern="[01]{8}"> <!-- Ejercicio 31: pattern-->
-                Clave:
-                <input type="password" id="clave" required>        <!-- Ejercicio 30: Required -->
+            <div class="container">
+                <h2 style="text-align: center; color:white;">Ingresa Tus Datos</h2>
 
-                Edad:
-                <input type="text" id="edad" autofocus >     <!-- Ejercicio 28: Autofocus-->
+                <form action="#">
 
-                <input type="email" id="emailusuario" required> <!-- Ejercicio 32: Email -->
-
-                Seleccione una temperatura:
-                <input type="range" id="temperatura" min="0" max="100"> <!-- Ejercicio 33: Rango -->
-                <span id="temp">0</span>
-
-                
-                <!-- Ejercicio 34: Date -->
-                <p>Primer fecha:
-                <input type="date" id="fecha1" name="fecha1">
-                </p>
-                <p>
-                Segundo fecha:
-                <input type="date" id="fecha2" name="fecha2">
-                </p>  
-        
-                <!-- Ejercicio 35: Color -->
-                <p>Seleccione un color:
-                <input type="color" id="color1" name="color1">
-                </p>
-        
-                <!-- Ejercicio 36: number -->
-                <p>Ingrese un valor entre 1 y 10:
-                <input type="number" id="valor" name="valor" min="1" max="10">
-                </p>
+                    Usuario
+                    <!-- Ejercicio 29: Placeholder-->
+                    <input type="text" id="usuario" placeholder="Ejm. Andrea" >
+                    Validar Usuario
+                    <input type="text" id="numero1" required pattern="[01]{8}" placeholder="Escriba 8 numeros binarios"> <!-- Ejercicio 31: pattern-->
+                    Clave
+                    <input type="password" id="clave" required>        <!-- Ejercicio 30: Required -->
+                    Edad
+                    <input type="text" id="edad" autofocus >     <!-- Ejercicio 28: Autofocus-->
+                    Email
+                    <input type="email" id="emailusuario" required> <!-- Ejercicio 32: Email -->
     
-                <!-- Ejercicio 37: url -->
-                <p>Dirección Web 1:
-                <input type="url" id="direccion1" name="direccion1" size="30" required></p>
-                <p>Dirección Web 2:
-                <input type="url" id="direccion2" name="direccion2" size="30" required></p>
-                <p>Dirección Web 3:
-                <input type="url" id="direccion3" name="direccion3" size="30" required></p>
-
+                    Seleccione una temperatura
+                    <input type="range" id="temperatura" min="0" max="100"> <!-- Ejercicio 33: Rango -->
+                    <span id="temp">0</span>
+    
+                    
+                    <!-- Ejercicio 34: Date -->
+                    <p>Primer fecha
+                    <input type="date" id="fecha1" name="fecha1">
+                    </p>
+                    <p>
+                    Segundo fecha
+                    <input type="date" id="fecha2" name="fecha2">
+                    </p>  
             
-                <!-- Ejercicio 38: input - datalist -->
-                Ingrese el nombre de navegador que utiliza:
-                <input type="text" id="navegador" list="listanavegadores">
-                <datalist id="listanavegadores">
-                <option label="Chrome" value="Chrome">
-                <option label="Firefox" value="Firefox">
-                <option label="Internet Explorer" value="Internet Explorer">
-                <option label="Microsoft Edge" value="Microsoft Edge">
-                <option label="Safari" value="Safari">          
-                </datalist>  
-                <br>
+                    <!-- Ejercicio 35: Color -->
+                    <p style="display:block; margin:2%;">Seleccione un color
+                    <input type="color" id="color1" name="color1" style="width: 40px !important;">
+                    </p>
+            
+                    <!-- Ejercicio 36: number -->
+                    <p>Ingrese un valor entre 1 y 10
+                    <input type="number" id="valor" name="valor" min="1" max="10">
+                    </p>
         
-                <!-- Ejercicio 39: novalidate -->
-                Usuario:
-                <input type="text" id="usuario" required>
+                    <!-- Ejercicio 37: url -->
+                    <p>Dirección Web 1
+                    <input type="url" id="direccion1" name="direccion1" size="30" required></p>
+    
+                
+                    <!-- Ejercicio 38: input - datalist -->
+                    Ingrese el nombre de navegador que utiliza
+                    <input type="text" id="navegador" list="listanavegadores">
+                    <datalist id="listanavegadores">
+                    <option label="Chrome" value="Chrome">
+                    <option label="Firefox" value="Firefox">
+                    <option label="Internet Explorer" value="Internet Explorer">
+                    <option label="Microsoft Edge" value="Microsoft Edge">
+                    <option label="Safari" value="Safari">          
+                    </datalist>  
+                    <br>
+            
+                    <!-- Ejercicio 39: novalidate -->
+                    Usuario
+                    <input type="text" id="usuario" required>
+    
+                    Clave
+                    <input type="password" id="clave" required placeholder="Escribe tu contraseña">
+    
+                    <input type="submit" style="width: 150px; height: 50px; margin-top: 2%;" value="Confirmar">
+            
+                </form>
+            </div>
 
-                Clave:
-                <input type="password" id="clave" required>
-
-                <input type="submit" value="Confirmar">
-        
-            </form>
         </section> 
 
         
@@ -110,7 +111,7 @@
         <aside>
             <h2>Publicidad</h2>
 
-            <img src="https://s3-symbol-logo.tradingview.com/coca-cola--600.png" alt="publicidad">
+            <img src="https://i1.wp.com/www.clipset.net/wp-content/uploads/2010/08/Vintageyoutube_03.jpg" alt="publicidad">
         </aside>
         
 
@@ -135,10 +136,6 @@
     </main>
 
    
-   
-
-
-
     <footer> 
         <p>Pié de página</p> 
     </footer> 
