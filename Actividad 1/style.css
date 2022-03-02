@@ -1,0 +1,124 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+body {
+    background-color: #EDF2F4;
+}
+
+/*----------  Navegacion  ----------*/
+
+
+header{
+    background-color: #EF233C;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    color: white;
+
+}
+
+header nav {
+    width: 60%;
+
+}
+
+header nav ul{
+    display: flex;
+    justify-content:flex-end;
+}
+
+li {
+    width: 100px;
+    height: 40px;
+    list-style: none;
+
+}
+
+li:hover{
+
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+
+/*----------  Contenedor Principal  ----------*/
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+/*----------  Formulario  ----------*/
+
+#formulario {
+    width: 70%;
+    padding: 5%;
+    text-align: left;
+}
+
+.container {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #cacdd1 !important;
+}
+
+#formulario > form {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+input {
+    width: 100%;
+}
+
+/*----------  Aside  ----------*/
+
+aside {
+    width: 30%;
+    text-align: center;
+    padding: 5%;
+    color: #EF233C;
+}
+
+aside > img {
+    width: 100%;
+
+}
+
+
+/*----------  Multimedia  ----------*/
+
+#multimedia {
+    width: 70%;
+    margin-bottom: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#multimedia audio {
+    width: 50%;
+}
+
+#multimedia video {
+    width: 50%;
+}
+
+/*----------  Footer  ----------*/
+
+footer {
+    background-color: #EF233C;
+    text-align: center;
+    padding: 2.5%;
+    color: white;
+}
