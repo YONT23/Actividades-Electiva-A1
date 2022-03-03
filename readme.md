@@ -4,4 +4,4 @@
 
 - Dilan Gonzalez
 - Duverney Orozco
-- Yonatha 
+- Yonatha Mendoza
